@@ -1,76 +1,76 @@
-.navbar1{
+.navbar1 {
     border-bottom: 2px solid green;
 }
 
-.hh{
+.hh {
     color: green;
     text-align: center;
     font-size: 50px;
 }
 
-.vv{
+.vv {
     text-align: center;
     font-size: 40px;
 }
 
-.float{
+.float {
     float: right;
     padding-bottom: 100px;
-    height: 500px; 
+    height: 500px;
     max-width: 50%;
 }
 
-.mobile1{
+.mobile1 {
     position: absolute;
     height: 98%;
     right: 45%;
 }
 
-.both-mobiles{
+.both-mobiles {
     position: relative;
 }
 
-.head{
+.head {
     margin-top: 100px;
     text-align: center;
 }
 
 
-.para{
+.para {
     text-align: center;
 }
 
-.btn{
+.btn {
     margin-left: 120px;
 }
 
-.img-willi{
+.img-willi {
     border-radius: 50%;
 }
 
-.img-ed1{
+.img-ed1 {
     text-align: center;
 }
 
-.bubble{
+.bubble {
     border-radius: 40px;
     float: right;
 }
 
-.last-form{
-   background-image: url(images/banner-new.jpg);   
+.last-form {
+    background-image: url(images/banner-new.jpg);
 }
 
 
- .button-type{
+.button-type {
     margin-left: 2px;
-} 
-
-.btn:hover{
-background-color: darkturquoise;
 }
 
-.hillo{
+.btn:hover {
+    background-color: darkturquoise;
+}
+
+.hillo {
     margin-right: 22%;
     padding: 5px 10px;
     border-radius: 10px;
@@ -78,61 +78,61 @@ background-color: darkturquoise;
 
 
 
-flex-card{
+flex-card {
     justify-content: space-around;
 }
 
-.secondside{
+.secondside {
     padding-top: 25%;
     text-align: center;
 }
 
-.head3{
+.head3 {
     background: linear-gradient(to right, green, rgb(96, 224, 22));
     justify-content: space-between;
 }
 
-.banner-img{
- width: 450px;
- height: 400px;
+.banner-img {
+    width: 450px;
+    height: 400px;
 }
 
-.para4{
+.para4 {
     padding-top: 10px;
     margin: 10px;
 }
 
-.lbox{
+.lbox {
     margin-bottom: 10px;
     padding: 20px;
     background-color: black;
     justify-content: space-between;
 }
 
-.navbar2{
+.navbar2 {
     border-bottom: 2px solid green;
 }
 
-.lbox2{
+.lbox2 {
     margin-bottom: 10px;
     padding: 20px;
     background-color: black;
     justify-content: space-between;
 }
 
-#name{
+#name {
     color: red;
 }
 
-#password{
+#password {
     color: red;
 }
 
-#mail{
+#mail {
     color: red;
 }
 
-.sign-button{
+.sign-button {
     height: 50px;
     width: 100px;
     border-radius: 50px;
@@ -141,41 +141,48 @@ flex-card{
 }
 
 
- @media only screen and (max-width: 768px) {
-*{
-    margin: 0px;
-    padding: 0px;
-}
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
 
-    .both-mobiles{
+    .both-mobiles {
         margin-top: 50px;
         margin-left: 100px;
     }
 
-    .hillo{
+    .hillo {
         margin-right: 125px;
     }
 
-    .test1{
+    .test1 {
         text-align: center;
-            
+
     }
 
-    .test2{
+    .test2 {
         text-align: center;
     }
 
-    .head3{
+    .head3 {
         text-align: left;
         text-transform: lowercase;
     }
 
-    .sign-button{
+    .sign-button {
         margin-top: 50px;
         width: 300px;
         height: 60px;
     }
 
-    
-} 
+    .adjust {
+        display: flex;
+        
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
 
+    }
+
+
+}
